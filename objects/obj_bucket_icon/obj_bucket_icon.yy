@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Dipshit",
-    "path": "sprites/spr_Dipshit/spr_Dipshit.yy",
+    "name": "spr_fish_icon",
+    "path": "sprites/spr_fish_icon/spr_fish_icon.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -29,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Dipshit",
+  "name": "obj_bucket_icon",
   "tags": [],
   "resourceType": "GMObject",
 }
