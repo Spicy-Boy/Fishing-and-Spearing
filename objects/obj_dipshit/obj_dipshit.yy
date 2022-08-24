@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_P1",
-    "path": "sprites/spr_P1/spr_P1.yy",
+    "name": "spr_Dipshit",
+    "path": "sprites/spr_Dipshit/spr_Dipshit.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,10 +21,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -32,7 +29,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_P1",
+  "name": "obj_Dipshit",
   "tags": [],
   "resourceType": "GMObject",
 }
