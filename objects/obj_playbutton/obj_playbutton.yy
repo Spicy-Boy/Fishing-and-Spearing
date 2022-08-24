@@ -1,16 +1,15 @@
 {
-  "name": "obj_playButton",
   "spriteId": null,
+  "solid": false,
+  "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_title_bg",
     "path": "sprites/spr_title_bg/spr_title_bg.yy",
   },
-  "visible": true,
-  "solid": false,
   "persistent": false,
-  "physicsObject": false,
-  "managed": true,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -32,6 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
+  "name": "obj_playButton",
   "tags": [],
   "resourceType": "GMObject",
 }

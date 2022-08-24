@@ -23,6 +23,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_bucket","path":"objects/obj_bucket/obj_bucket.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":288.0,"resourceVersion":"1.0","name":"inst_55A955CF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_fish","path":"objects/obj_fish/obj_fish.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":384.0,"resourceVersion":"1.0","name":"inst_366721F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_fish","path":"objects/obj_fish/obj_fish.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":384.0,"resourceVersion":"1.0","name":"inst_299CB188","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_fish_icon","path":"objects/obj_fish_icon/obj_fish_icon.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":352.0,"resourceVersion":"1.0","name":"inst_6324B1C8","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Entities","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_sand","path":"objects/obj_sand/obj_sand.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":320.0,"resourceVersion":"1.0","name":"inst_1725B91E","tags":[],"resourceType":"GMRInstance",},
@@ -381,6 +382,7 @@
     {"name":"inst_366721F","path":"rooms/rm_battlefield/rm_battlefield.yy",},
     {"name":"inst_299CB188","path":"rooms/rm_battlefield/rm_battlefield.yy",},
     {"name":"inst_64978BF5","path":"rooms/rm_battlefield/rm_battlefield.yy",},
+    {"name":"inst_6324B1C8","path":"rooms/rm_battlefield/rm_battlefield.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

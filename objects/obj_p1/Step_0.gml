@@ -87,6 +87,26 @@ if key_use && global.P1holding = 1
 		obj_rod.cast = 1;
 		instance_create_layer(obj_rod.x,obj_rod.y,"Items",obj_lure);
 	}
+	if obj_rod.cast =1 && obj_lure.vsp=0 && obj_lure.hsp=0
+	{
+		obj_rod.cast = 0;
+		instance_destroy(obj_lure.id);
+		obj_rod.image_index = 0;
+	}
+}
+
+//Dropping
+if key_down && global.P1holding = 1
+{
+	global.P1holding = 0;
+	obj_rod.vsp = -2;
+	obj_rod.hsp = 2 * image_xscale;
+}
+if key_down && global.P1holding = 2
+{
+	global.P1holding = 0;
+	obj_spear.vsp = -2;
+	obj_spear.hsp = 2 * image_xscale;
 }
 
 
