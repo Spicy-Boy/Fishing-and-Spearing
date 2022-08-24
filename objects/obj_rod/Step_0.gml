@@ -12,7 +12,16 @@ if global.P1holding = 1
 		x = obj_P1.x - 14;
 		y = obj_P1.y - 7;
 	}
+	
+//Casting
+	if (cast = 0) && obj_P1.key_use cast = 1;
+	//if (cast = 1) && obj_P1.key_use cast = 0;
+	if (cast = 1)
+	{
+		draw_line_color(x,y,obj_bucket.x,obj_bucket.y,c_silver,c_gray);
+	}
 }
+
 
 //Collisions
 else

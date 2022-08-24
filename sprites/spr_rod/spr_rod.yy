@@ -27,6 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"0cf58d57-0e0b-4a62-95d7-39b80112a942","path":"sprites/spr_rod/spr_rod.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"0cf58d57-0e0b-4a62-95d7-39b80112a942","path":"sprites/spr_rod/spr_rod.yy",},"LayerId":{"name":"3ae8e503-0866-440e-9ac0-64e17a981f74","path":"sprites/spr_rod/spr_rod.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_rod","path":"sprites/spr_rod/spr_rod.yy",},"resourceVersion":"1.0","name":"0cf58d57-0e0b-4a62-95d7-39b80112a942","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"209f1e99-aa1e-4302-b640-ef2a9d40f0f9","path":"sprites/spr_rod/spr_rod.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"209f1e99-aa1e-4302-b640-ef2a9d40f0f9","path":"sprites/spr_rod/spr_rod.yy",},"LayerId":{"name":"3ae8e503-0866-440e-9ac0-64e17a981f74","path":"sprites/spr_rod/spr_rod.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_rod","path":"sprites/spr_rod/spr_rod.yy",},"resourceVersion":"1.0","name":"209f1e99-aa1e-4302-b640-ef2a9d40f0f9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_rod","path":"sprites/spr_rod/spr_rod.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"cb9d8ead-bddf-4805-babf-f59e66677427","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0cf58d57-0e0b-4a62-95d7-39b80112a942","path":"sprites/spr_rod/spr_rod.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"ba0f049a-caba-434a-9ead-42574f9d3c52","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"209f1e99-aa1e-4302-b640-ef2a9d40f0f9","path":"sprites/spr_rod/spr_rod.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -69,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "FishingAndSpearing",
-    "path": "FishingAndSpearing.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_rod",

@@ -4,8 +4,9 @@ key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 key_jump_held = keyboard_check(vk_space);
 key_down = keyboard_check(ord("S"));
-key_pickup = keyboard_check(ord("K"));
-key_use = keyboard_check(ord("J"));
+key_pickup = keyboard_check_pressed(ord("K"));
+key_use = keyboard_check_pressed(ord("J"));
+key_restart = keyboard_check_pressed(ord("R"));
 
 //Calculate Movement
 var move = key_right - key_left;
@@ -71,12 +72,23 @@ if (place_meeting(x,y,obj_rod) && global.P1holding = 0 && key_pickup)
 	global.P1holding = 1;	
 }
 
+//if key_pickup && global.P1holding = 1
+//{
+//	global.P1holding = 0;
+//	obj_rod.hsp = castsp * sign(image_xscale);
+//	obj_rod.vsp = -3.5;
+//}
+
 if key_use && global.P1holding = 1
 {
-	global.P1holding = 0;
-	obj_rod.hsp = castsp * sign(image_xscale);
-	obj_rod.vsp = -3.5;
+	obj_rod.image_index = 1;
+	if obj_rod.cast = 0
+	{
+		obj_rod.cast = 1;
+		instance_create_layer(obj_rod.x,obj_rod.y,"Items",obj_lure);
+	}
 }
+
 
 //Dropping off Fish
 if (place_meeting(x,y,obj_bucket) && fish_held = 1)
@@ -99,5 +111,9 @@ if (place_meeting(x,y,obj_Dipshit) && room = rm_battlefield) room_goto(rm_love);
 //Execute Movement
 x = x + hsp;
 y = y + vsp;
+
+//Restart
+if key_restart game_restart();
+
 
 
