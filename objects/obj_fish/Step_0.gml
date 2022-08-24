@@ -30,7 +30,7 @@ if (place_meeting(x,y+vsp,obj_froof))
 }
 
 //Hit by spear
-if (place_meeting(x,y,obj_spear) && global.P1holding!=2)
+if (place_meeting(x,y,obj_spear) && global.P1holding!=2 && obj_spear.hsp!=0 && obj_P1.fish_held = 0)
 {
 	instance_destroy();
 	obj_P1.fish_held = 1;

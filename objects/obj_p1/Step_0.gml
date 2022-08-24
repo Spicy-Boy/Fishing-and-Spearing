@@ -65,6 +65,19 @@ if key_use && global.P1holding = 2
 	obj_spear.vsp = -3.5;
 }
 
+//Rod
+if (place_meeting(x,y,obj_rod) && global.P1holding = 0 && key_pickup)
+{
+	global.P1holding = 1;	
+}
+
+if key_use && global.P1holding = 1
+{
+	global.P1holding = 0;
+	obj_rod.hsp = castsp * sign(image_xscale);
+	obj_rod.vsp = -3.5;
+}
+
 //Dropping off Fish
 if (place_meeting(x,y,obj_bucket) && fish_held = 1)
 {
@@ -72,6 +85,16 @@ if (place_meeting(x,y,obj_bucket) && fish_held = 1)
 	global.P1bucket = global.P1bucket + 1;
 	instance_create_layer(obj_bucket.x, obj_bucket.y-18, "Entities", obj_bucket_icon);
 }
+
+//Victory conditions
+if global.P1bucket = 3 
+{
+	global.P1bucket = 0;
+	instance_create_layer(320,240,"Static", obj_P1Victory);
+	instance_create_layer(320,240,"Entities",obj_Dipshit);
+}
+
+if (place_meeting(x,y,obj_Dipshit) && room = rm_battlefield) room_goto(rm_love);
 
 //Execute Movement
 x = x + hsp;
