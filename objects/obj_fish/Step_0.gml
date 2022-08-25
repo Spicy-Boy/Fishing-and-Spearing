@@ -30,7 +30,7 @@ if (place_meeting(x,y+vsp,obj_froof))
 	vsp = 0;	
 }
 //Caught by rod
-if (place_meeting(x,y,obj_lure) && obj_P1.fish_held = 0)
+if (place_meeting(x,y,obj_lure) && obj_Player.fish_held = 0)
 {
 	caught = 1;
 	hsp = 0;
@@ -44,17 +44,19 @@ if (place_meeting(x,y,obj_lure) && obj_P1.fish_held = 0)
 	obj_lure.vsp = 0;
 }
 
-if caught = 1 && obj_P1.key_use
+
+
+if caught = 1 && obj_Player.key_use
 {
 	instance_destroy();
-	obj_P1.fish_held = 1;
+	obj_Player.fish_held = 1;
 }
 
 //Hit by spear
-if (place_meeting(x,y,obj_spear) && global.P1holding!=2 && obj_spear.hsp!=0 && obj_P1.fish_held = 0)
+if (place_meeting(x,y,obj_spear) && obj_Player.holding!=2 && obj_spear.hsp!=0 && obj_Player.fish_held = 0)
 {
 	instance_destroy();
-	obj_P1.fish_held = 1;
+	obj_Player.fish_held = 1;
 }
 
 //Execute

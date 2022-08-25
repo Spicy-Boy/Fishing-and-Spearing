@@ -21,9 +21,9 @@ if (collidedWithFish = false)
 		vsp = 0;
 		hsp = 0;
 	}
-	
+  
 	//Fish
-	if (place_meeting(x+hsp,y,obj_fish) && obj_P1.fish_held = 0)
+	if (place_meeting(x+hsp,y,obj_fish) && obj_Player.fish_held = 0)
 	{
 		collidedWithFish = true;
 		while (!place_meeting(x,y+sign(vsp),obj_fish)) {
@@ -31,7 +31,7 @@ if (collidedWithFish = false)
 		}
 		hsp = 0;
 	}
-	if (place_meeting(x,y+vsp,obj_fish) && obj_P1.fish_held = 0)
+	if (place_meeting(x,y+vsp,obj_fish) obj_Player.fish_held = 0)
 	{
 		collidedWithFish = true;
 		while (!place_meeting(x,y+sign(vsp),obj_fish)) {
