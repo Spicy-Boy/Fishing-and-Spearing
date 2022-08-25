@@ -35,6 +35,13 @@ if (place_meeting(x,y,obj_lure) && obj_P1.fish_held = 0)
 	caught = 1;
 	hsp = 0;
 	vsp = 0;
+	sprite_index = spr_fishFlail;
+	
+	obj_lure.x = x;
+	obj_lure.y = y;
+	obj_lure.grav = 0;
+	obj_lure.hsp = 0;
+	obj_lure.vsp = 0;
 }
 
 if caught = 1 && obj_P1.key_use

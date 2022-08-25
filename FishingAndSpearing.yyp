@@ -15,6 +15,7 @@
     {"id":{"name":"obj_froof","path":"objects/obj_froof/obj_froof.yy",},"order":5,},
     {"id":{"name":"spr_P1","path":"sprites/spr_P1/spr_P1.yy",},"order":0,},
     {"id":{"name":"obj_rod","path":"objects/obj_rod/obj_rod.yy",},"order":13,},
+    {"id":{"name":"spr_fishFlail","path":"sprites/spr_fishFlail/spr_fishFlail.yy",},"order":15,},
     {"id":{"name":"spr_lure","path":"sprites/spr_lure/spr_lure.yy",},"order":14,},
     {"id":{"name":"obj_Dipshit","path":"objects/obj_Dipshit/obj_Dipshit.yy",},"order":14,},
     {"id":{"name":"obj_P1Victory","path":"objects/obj_P1Victory/obj_P1Victory.yy",},"order":12,},
@@ -73,7 +74,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.1.26",
+    "IDEVersion": "2022.6.0.23",
   },
   "resourceVersion": "1.5",
   "name": "FishingAndSpearing",
