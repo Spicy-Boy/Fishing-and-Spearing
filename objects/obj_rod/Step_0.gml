@@ -1,21 +1,19 @@
 //Picked up by player
-if global.P1holding = 1
+if obj_Player.holding = 1
 {
-	image_xscale = obj_P1.image_xscale;
+	image_xscale = obj_Player.image_xscale;
 	if image_xscale = 1
 	{
-		x = obj_P1.x + 14;
-		y = obj_P1.y - 7;
+		x = obj_Player.x + 14;
+		y = obj_Player.y - 7;
 	}
 	else
 	{
-		x = obj_P1.x - 14;
-		y = obj_P1.y - 7;
+		x = obj_Player.x - 14;
+		y = obj_Player.y - 7;
 	}
-	
 
 }
-
 
 //Collisions
 else

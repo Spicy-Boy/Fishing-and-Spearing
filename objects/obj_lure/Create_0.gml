@@ -1,4 +1,4 @@
-hsp = obj_P1.castsp * obj_P1.image_xscale;
+hsp = obj_Player.castsp * obj_Player.image_xscale;
 vsp = -4;
 grav = 0.25;
-image_xscale = obj_P1.image_xscale;
+image_xscale = obj_Player.image_xscale;

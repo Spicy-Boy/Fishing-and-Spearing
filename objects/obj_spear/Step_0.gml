@@ -1,16 +1,16 @@
 //Picked up by player
-if global.P1holding = 2
+if obj_Player.holding = 2
 {
-	image_xscale = obj_P1.image_xscale;
+	image_xscale = obj_Player.image_xscale;
 	if image_xscale = 1
 	{
-		x = obj_P1.x + 8;
-		y = obj_P1.y + 4;
+		x = obj_Player.x + 8;
+		y = obj_Player.y + 4;
 	}
 	else
 	{
-		x = obj_P1.x - 8;
-		y = obj_P1.y + 4;
+		x = obj_Player.x - 8;
+		y = obj_Player.y + 4;
 	}
 }
 
