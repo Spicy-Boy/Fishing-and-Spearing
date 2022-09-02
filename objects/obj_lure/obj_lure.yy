@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_lure",
-    "path": "sprites/spr_lure/spr_lure.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -29,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Parents",
+    "path": "folders/Objects/Parents.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lure",
